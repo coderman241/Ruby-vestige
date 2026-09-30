@@ -24,7 +24,7 @@
   </head>
   <body>
     <h1 style="color:crimson;">Ruby Vestige</h1>
-    <p1>this is the ruby vestige project, a little website im making because why not</p1>
+    <p1 id="ChangeText()">this is the ruby vestige project, a little website im making because why not?</p1>
     <div>
       <img src="ruby.webp"
 
@@ -33,6 +33,13 @@
         <button>ruby project</button>
       </a><br/>
       <a href="sources.html">sources I learn from</a>
-      </div>
+      </div><br/>
+      <button onclick="ChangeText()" style="font-size:30px;" style="color:crimson">change text
+      <script>
+        function ChangeText(){
+        document.getElementById("ChangeText()").innerHTML = "Another reason for me making this website is because I wanna document my time programming in the languages that power the modern world";
+    }
+
+      </script>
   </body>
 </html>
